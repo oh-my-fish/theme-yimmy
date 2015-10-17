@@ -16,4 +16,4 @@ Characteristics:
 - Indicates Git work-in-progress (gwip/gunwip) if detected
 - Prompt character is colored red if previous command had a non-zero exit
   status
-- Includes completmentary `LS_COLORS`
+- Includes complementary `LS_COLORS`
