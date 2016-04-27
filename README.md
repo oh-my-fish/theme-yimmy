@@ -1,6 +1,6 @@
 ## yimmy theme
 
-A simple two-line theme best displayed on a terminal configured with Solarized
+A simple two-line theme with support for terminals configured with Solarized
 Dark colors.
 
     user@host ~/c/w/dir (branch *)
@@ -8,7 +8,7 @@ Dark colors.
 
 ![Screenshot](https://cloud.githubusercontent.com/assets/2502736/3245408/32c42cde-f172-11e3-8ba3-912191222a11.png)
 
-Characteristics:
+### Characteristics:
 
 - Standard fish prompt characters: > for user, # for root
 - Uses the fish `prompt_pwd`, so paths will be abbreviated
@@ -17,3 +17,7 @@ Characteristics:
 - Prompt character is colored red if previous command had a non-zero exit
   status
 - Includes complementary `LS_COLORS`
+
+### Configuration:
+
+- Disable Solarized colors in prompt with: `set -U yimmy_solarized false`
